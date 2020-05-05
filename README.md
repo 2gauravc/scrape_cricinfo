@@ -24,7 +24,7 @@ You will need the below to be able to run this on your computer.
 - Macbooks have Python installed by default    
 - Windows: Follow this you tube video and get yourself set-up. Go ahead click on the image below:
 
-[![Python for Windows](../images/install_python_windows.png)](https://www.youtube.com/watch?v=lnse_uD-MaA)
+[![Python for Windows](images/install_python_windows.png)](https://www.youtube.com/watch?v=lnse_uD-MaA)
 
 ### Installing the packages
 
@@ -52,6 +52,6 @@ The outcome will be a csv file.
 
 Each row will be 1 ball in the match.  The commentary of a particular ball looke like this: 
 
-<img style="float: center;" src="../images//cricinfo-comm-sample.png" height="200" width="500">
+<img style="float: center;" src="images//cricinfo-comm-sample.png" height="200" width="500">
 
 The columns in the csv file will be structured data points of a particular ball, i.e. the batsman, the bowler etc.
