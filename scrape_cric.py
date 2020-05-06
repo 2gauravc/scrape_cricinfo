@@ -106,7 +106,7 @@ def main(argv):
       opts, args = getopt.getopt(argv,"", ["match=","series="])
 
     except getopt.GetoptError:
-      print 'python scrape_cric.py --match=<match> --series=<series>'
+      print ('python scrape_cric.py --match=<match> --series=<series>')
       sys.exit(2)
     for opt, arg in opts:
         if opt == '--match':
@@ -118,11 +118,11 @@ def main(argv):
     b_by_b = scrape_test_match(t_series, t_match)
 
     #write the result to csv
-    oname = "../output/{match}_{series}.csv".format(match = t_match, series = t_series)
-    b_by_b.to_csv(oname)
+    oname = "output/{match}_{series}.csv".format(match = t_match, series = t_series)
+    b_by_b.to_csv(oname, index=False)
 
     #end
-    print 'Done writing file. Bye'
+    print ('Done writing file. Bye')
       
 if __name__ == "__main__":
    main(sys.argv[1:])
