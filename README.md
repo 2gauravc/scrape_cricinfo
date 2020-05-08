@@ -18,11 +18,9 @@ To check if your computer already has Python installed, try the below on Termina
 python --version
 ```
 
-If you see a Python version returned (like 2.7.13), you already have Python !
+If you see a Python version returned (like 3.8.2), you already have Python !
 
-Macbooks have Python 2.7 installed by default. That is good enough for us!
-
-Windows: Follow this you tube video and get yourself set-up. Go ahead click on the image below:
+Windows: Follow this you-tube video and get yourself set-up. Go ahead click on the image below:
 
 [![Python for Windows](images/install_python_windows.png)](https://www.youtube.com/watch?v=lnse_uD-MaA)
 
@@ -39,9 +37,6 @@ To install these packages run the below command on the Terminal (Mac) or Command
 pip install -r requirements.txt
 ```
 
-Note: 
-If you have 
-
 ## Running the Code 
 
 To run the code, just use the below on your Terminal (Mac) or Command prompt (Win):
@@ -50,7 +45,7 @@ To run the code, just use the below on your Terminal (Mac) or Command prompt (Wi
 python scrape_cric.py --match=1122276 --series=18065
 ```
 
-Look for the output/1122276-18065.csv
+Look for the file: output/1122276-18065.csv
 
 ### Interpreting the Outcome 
 
