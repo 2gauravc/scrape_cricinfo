@@ -1,6 +1,6 @@
 ---
 title: "Scraping Cricinfo"
-author: "Gaurav Chaturvedi"
+author: "Data Smart"
 ---
 
 
