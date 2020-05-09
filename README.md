@@ -22,7 +22,7 @@ If you see a Python version returned (like 3.8.2), you already have Python !
 
 Windows: Follow this you-tube video and get yourself set-up. Go ahead click on the image below:
 
-[![Python for Windows](images/install_python_windows.png)](https://www.youtube.com/watch?v=lnse_uD-MaA)
+[![Python for Windows](images/install_python_windows.png)](https://www.youtube.com/watch?v=lnse_uD-MaA){target="_blank"}
 
 This will install Python 3.x on your Windows machine. 
 
